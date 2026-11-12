@@ -95,6 +95,3 @@ docker compose down -v
 | `verificar-tabelas.js` | Confirma presença via `information_schema.tables` |
 | `package.json` | Scripts `npm run criar-tabelas` e `npm run verificar-tabelas` |
 
-## Entrega (UniRitter)
-
-Publique este repositório no Git e envie o link. A entrega deve incluir, no mínimo, o `docker-compose.yml` e o script `criar-tabelas.js`.
