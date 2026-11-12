@@ -1,0 +1,21 @@
+{
+  "name": "pazuno-docker-postgres",
+  "version": "1.0.0",
+  "description": "Cadastro interno da Pazuno — PostgreSQL com Docker (trabalho UniRitter)",
+  "type": "module",
+  "scripts": {
+    "criar-tabelas": "node criar-tabelas.js",
+    "verificar-tabelas": "node verificar-tabelas.js"
+  },
+  "keywords": [
+    "docker",
+    "postgresql",
+    "pazuno",
+    "uniriter"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.3"
+  }
+}
